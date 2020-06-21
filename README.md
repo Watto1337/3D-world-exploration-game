@@ -9,6 +9,7 @@ Unforeseen difficulties include:
  - Proper perspective scaling for three dimensional objects
  - Correct rotation for the third-person perspective
  - Rotation for the car model on the terrain
- - Coloration
 
 If you want to use either the 3D rendering tool or the noise algorithm, I would recommend taking a close look at them and analysing the function inputs and outputs. It is also important to take a look at the class definitions in the 3D renderer for the camera and the screen objects; these are essential and will not be created automatically.
+
+The code is not yet refined or organized particularly well, but I will continue to work on it. If you want to use some or all of these modules, I would recommend waiting until the end of June 2020 to ensure that I have finished the code and cleaned it up a bit.
