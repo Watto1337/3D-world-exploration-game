@@ -1,5 +1,5 @@
 # 3D-world-exploration-game
-Explore a randomly generated 3D world and enjoy the simulated hills.
+Explore a randomly generated 3D world and enjoy the simulated terrain.
 
 This project was made entirely in Python and makes use of the Pygame module for Python, which can be downloaded using pip - follow the instructions at pygame.org/wiki/GettingStarted.
 
