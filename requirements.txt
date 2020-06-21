@@ -1,0 +1,4 @@
+This script requires Pygame to run. Use the pip command   python3 -m pip install -U pygame --user   in the command line to install it.
+If this does not work or you use a different operating system, follow the further instructions at pygame.org/wiki/GettingStarted.
+
+If you do not already have Python 3.7 or later installed already, you can do so at python.org/downloads.
