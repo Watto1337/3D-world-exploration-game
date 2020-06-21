@@ -1,11 +1,11 @@
 # 3D-world-exploration-game
 Explore a randomly generated 3D world and enjoy the simulated hills.
 
-This project was made entirely in Python and makes use of the Pygame module, which can be downloaded using pip - follow the instructions at pygame.org/wiki/GettingStarted
+This project was made entirely in Python and makes use of the Pygame module for Python, which can be downloaded using pip - follow the instructions at pygame.org/wiki/GettingStarted.
 
 I wrote all of the code myself, using no libraries (with the exception of Pygame, of course). This includes the 3D rendering tool and the noise algorithm, which was inspired by experiments with Perlin Noise.
 
-Unforeseen difficulties include:
+Unforeseen difficulties included:
  - Proper perspective scaling for three dimensional objects
  - Correct rotation for the third-person perspective
  - Rotation for the car model on the terrain
