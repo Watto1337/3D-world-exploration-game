@@ -22,7 +22,11 @@ class screen():
         self.disp = pygame.display.set_mode((width, height))
 
 def sort(a):
-    return a[0][2]
+    s = 0
+    for point in a:
+        s += point[2]
+    s /= len(a)
+    return s
 
 def roundToZero(x):
     return int(math.copysign(math.floor(abs(x)), x))
@@ -81,7 +85,6 @@ def translate(shape, screen):
 
 def draw(items, c, screen):
     try:
-        screen.disp.fill((255, 255, 255))
         shapes = []
         for item in items:
             shape = translate(rotate(item,c.a,[c.x+math.sin(c.a[0])*75,c.y,c.z+math.cos(c.a[0])*75]),screen)
@@ -91,5 +94,4 @@ def draw(items, c, screen):
             shape = [point[:2] for point in item]
             pygame.draw.polygon(screen.disp, cols["grey"], shape)
             pygame.draw.lines(screen.disp, cols["black"], True, shape)
-        pygame.display.update()
     except Exception as e: print(e)
