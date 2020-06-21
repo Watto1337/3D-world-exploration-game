@@ -1,6 +1,8 @@
 # 3D-world-exploration-game
 Explore a randomly generated 3D world and enjoy the simulated terrain.
 
+Download all of the Python script files included to run the program. The script you will need to run is Example.py
+
 To give the program control of your mouse, click inside the Pygame window. This will hide your mouse and allow you to use it to look around. To release the mouse, just click again. Looking around does not affect the way the car moves, but can offer a more interesting perspective.
 Use the WASD keys to control the car: W to move forward, S to move backwards, A to turn left and D to turn right. You can only turn while you are moving.
 
